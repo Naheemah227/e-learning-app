@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Be Vietnam Pro;
+    background-color:#F7F7F8;
+}
+input[type="checkbox"] {
+transform: scale(2.2); /* Adjust the scale factor as needed */
+margin: 10px; /* Optional: Add some margin */
+}
+.login-cont{
+    background-color: white;
+}
+.google-button{
+    gap: 40px;
+}
+@media screen and (max-width:320px){
+    .login-cont{
+        max-width: 100%;
+        height: 100vh;
+    }
+    .paragraph p{
+        font-size: 12px;
+    }
+    .main input{
+        padding: 0px;
+    }
+    input[type="checkbox"] {
+    transform: scale(1.6); /* Adjust the scale factor as needed */
+    margin: 10px; /* Optional: Add some margin */
+    }
+    .checkbox-container p a{
+        font-size: 14px;
+    }
+}
+    
