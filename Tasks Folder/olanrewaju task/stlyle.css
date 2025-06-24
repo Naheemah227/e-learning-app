@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.contact-page {
+    margin: 50px;
+    background-color: #f7f7f8;
+
+
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+h3 {
+    flex: 1;
+}
+
+p {
+    flex: 1;
+    font-weight: lighter;
+    font-size: .8em;
+}
+
+body {
+    background: #f7f7f8;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 15rem;
+    height: 2rem;
+    margin-bottom: 10px;
+    border: 1px;
+
+}
+
+input::placeholder {
+    padding-left: 10px;
+    color: rgb(130, 126, 126);
+}
+
+.label {
+    display: flex;
+    gap: 20px;
+}
+
+.phone {
+    margin-left: 80px;
+}
+
+.social-big {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdfdfe;
+    /* max-width: 95%; */
+    padding: 30px 40px;
+
+
+}
+
+.social {
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+textarea {
+    margin-bottom: 20px;
+    border: 1px;
+}
+
+button {
+    position: relative;
+    left: 200px;
+    background-color: darkorange;
+    color: white;
+    height: 2rem;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: .6em;
+
+}
+
+i {
+    background-color: rgb(240, 238, 242);
+    padding: 2px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.p2 {
+    text-decoration: none;
+    color: black;
+}
