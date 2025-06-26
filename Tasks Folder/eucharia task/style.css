@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f7f7f8;
+  background-color: #F7F7F8 !important;
   /* background-color: blue; */
 }
 
@@ -170,6 +170,6 @@ body {
     grid-template-columns: 1fr 1fr;
   }
   .btn {
-    margin-left: 250px;
+    margin-left: 250px !important;
   }
 }
