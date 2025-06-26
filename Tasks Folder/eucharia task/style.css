@@ -159,7 +159,7 @@ body {
   }
   .absolute-img {
     position: absolute;
-    top: 20px;
+    top: 5rem;
     left: 40%;
   }
   .image img {
